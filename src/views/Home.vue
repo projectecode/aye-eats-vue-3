@@ -1,12 +1,15 @@
 <template>
-  <div class="home">Hello world</div>
+  <MenuItems />
 </template>
 
 <script>
 import { defineComponent } from "vue";
+import MenuItems from "@/components/MenuItems";
 
 export default defineComponent({
   name: "Home",
-  setup() {},
+  components: {
+    MenuItems,
+  },
 });
 </script>

@@ -7,7 +7,7 @@
     </q-header>
 
     <q-page-container>
-      <MenuItems />
+      <router-view></router-view>
     </q-page-container>
   </q-layout>
 </template>
