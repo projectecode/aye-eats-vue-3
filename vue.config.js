@@ -5,7 +5,6 @@ module.exports = defineConfig({
     allowedHosts: "all",
   },
   pluginOptions: {
-    vuetify: {},
     quasar: {
       importStrategy: "kebab",
       rtlSupport: false,
